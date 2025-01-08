@@ -3,10 +3,10 @@
  * See LICENSE.md for licensing information.
  */
 
-import type { ImageDataLike } from "./ImageDataLike";
-import { blurImageDataRGB } from "./rgb";
-import { blurImageDataRGBA } from "./rgba";
-import { mulTable } from "./tables";
+import type { ImageDataLike } from "./ImageDataLike.js";
+import { blurImageDataRGB } from "./rgb.js";
+import { blurImageDataRGBA } from "./rgba.js";
+import { mulTable } from "./tables.js";
 
 export { ImageDataLike };
 

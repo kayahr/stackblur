@@ -1,6 +1,9 @@
-import "jest-extended";
+import "@kayahr/vitest-matchers";
+import "./support/jest-image-snapshot";
 
-import { BlurStack } from "../main/BlurStack";
+import { describe, expect, it } from "vitest";
+
+import { BlurStack } from "../main/BlurStack.js";
 
 describe("BlurStack", () => {
     describe("getNext", () => {

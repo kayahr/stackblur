@@ -1,27 +1,31 @@
 {
     "$schema": "http://json.schemastore.org/tsconfig",
     "compilerOptions": {
-        "target": "ES2022",
-        "lib": [ "ES2022", "DOM" ],
-        "module": "commonjs",
-        "rootDir": "src",
-        "outDir": "lib",
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "ES2022",
+            "ESNext.Decorators",
+            "DOM"
+        ],
+        "module": "NodeNext",
+        "newLine": "lf",
+        "noEmitOnError": false,
+        "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
-        "sourceMap": true,
-        "declaration": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "noEmit": false,
-        "strict": true,
-        "strictPropertyInitialization": false,
         "noUnusedLocals": true,
         "noUnusedParameters": false,
+        "outDir": "./lib",
+        "preserveSymlinks": true,
+        "rootDir": "./src",
         "skipLibCheck": true,
-        "importHelpers": true,
-        "downlevelIteration": true,
-        "preserveSymlinks": true
-    }
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2022"
+    },
+    "include": [ "src" ],
+    "exclude": [ "src/**/*.legacy.ts" ]
 }

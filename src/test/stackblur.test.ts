@@ -1,5 +1,10 @@
-import { blurImageData, type ImageDataLike } from "../main/stackblur";
-import { cloneImageData, createPNG, loadImageData } from "./support/image";
+import "@kayahr/vitest-matchers";
+import "./support/jest-image-snapshot";
+
+import { beforeAll, describe, expect, it } from "vitest";
+
+import { blurImageData, type ImageDataLike } from "../main/stackblur.js";
+import { cloneImageData, createPNG, loadImageData } from "./support/image.js";
 
 describe("stackblur", () => {
     describe("blurImageData", () => {

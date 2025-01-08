@@ -1,6 +1,6 @@
-import * as sharp from "sharp";
+import sharp from "sharp";
 
-import type { ImageDataLike } from "../../main/ImageDataLike";
+import type { ImageDataLike } from "../../main/ImageDataLike.js";
 
 export async function loadImageData(file: string): Promise<ImageDataLike> {
     const pixels = await sharp(file).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
