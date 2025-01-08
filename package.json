@@ -36,8 +36,7 @@
         "test:apidoc": "typedoc --emit none",
         "test:spell": "cspell --no-progress --no-summary",
         "apidoc": "typedoc",
-        "install:browser": "playwright install chromium",
-        "prepare": "run-s install:browser clean build"
+        "prepare": "run-s clean build"
     },
     "devDependencies": {
         "@kayahr/eslint-config": "3.3.0",
