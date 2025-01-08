@@ -10,8 +10,7 @@
         "filter",
         "image",
         "imaging",
-        "typescript",
-        "text"
+        "typescript"
     ],
     "license": "MIT",
     "author": "Klaus Reimer <k@ailis.de>",
