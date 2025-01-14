@@ -25,6 +25,7 @@
         "lib/main/",
         "src/main/"
     ],
+    "main": "./lib/main/stackblur.js",
     "exports": "./lib/main/stackblur.js",
     "scripts": {
         "clean": "rimraf lib",
