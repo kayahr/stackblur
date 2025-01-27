@@ -52,6 +52,6 @@
         "sharp": "0.33.5",
         "typedoc": "0.27.6",
         "typescript": "5.7.3",
-        "vitest": "2.1.8"
+        "vitest": "3.0.4"
     }
 }
