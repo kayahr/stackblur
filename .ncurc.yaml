@@ -1,0 +1,3 @@
+reject:
+  - "vitest"              # Vitest 3 conflicts with jest-image-snapshot
+  - "@vitest/coverage-v8" # Need vitest 3
