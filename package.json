@@ -45,7 +45,7 @@
         "@types/jest-image-snapshot": "6.4.0",
         "@types/node": "22.13.1",
         "@vitest/coverage-v8": "~2.1.8",
-        "cspell": "8.17.3",
+        "cspell": "8.17.5",
         "jest-image-snapshot": "6.4.0",
         "npm-run-all": "4.1.5",
         "rimraf": "6.0.1",
