@@ -43,7 +43,7 @@
         "@kayahr/eslint-config": "3.3.0",
         "@kayahr/vitest-matchers": "1.1.0",
         "@types/jest-image-snapshot": "6.4.0",
-        "@types/node": "22.13.1",
+        "@types/node": "22.13.10",
         "@vitest/coverage-v8": "~2.1.8",
         "cspell": "8.17.3",
         "jest-image-snapshot": "6.4.0",
