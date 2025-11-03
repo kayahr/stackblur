@@ -1,9 +1,6 @@
-import "@kayahr/vitest-matchers";
-import "./support/jest-image-snapshot";
-
-import { describe, expect, it } from "vitest";
-
-import { BlurStack } from "../main/BlurStack.js";
+import { describe, it } from "node:test";
+import { assertSame, assertThrowWithMessage } from "@kayahr/assert";
+import { BlurStack } from "../main/BlurStack.ts";
 
 describe("BlurStack", () => {
     describe("getNext", () => {
@@ -11,11 +8,11 @@ describe("BlurStack", () => {
             const a = new BlurStack();
             const b = new BlurStack();
             b.next = a;
-            expect(b.getNext()).toBe(a);
+            assertSame(b.getNext(), a);
         });
         it("throws error if no next entry exists", () => {
             const a = new BlurStack();
-            expect(() => a.getNext()).toThrowWithMessage(Error, "Unexpected end of blur stack");
+            assertThrowWithMessage(() => a.getNext(), Error, "Unexpected end of blur stack");
         });
     });
 });

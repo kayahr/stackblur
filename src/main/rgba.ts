@@ -24,9 +24,9 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-import { BlurStack } from "./BlurStack.js";
-import type { ImageDataLike } from "./ImageDataLike.js";
-import { mulTable, shgTable } from "./tables.js";
+import { BlurStack } from "./BlurStack.ts";
+import type { ImageDataLike } from "./ImageDataLike.ts";
+import { mulTable, shgTable } from "./tables.ts";
 
 /**
  * Blurs image data with given blur radius. Alpha channel is also blurred.

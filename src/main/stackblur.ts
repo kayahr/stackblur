@@ -3,12 +3,12 @@
  * See LICENSE.md for licensing information.
  */
 
-import type { ImageDataLike } from "./ImageDataLike.js";
-import { blurImageDataRGB } from "./rgb.js";
-import { blurImageDataRGBA } from "./rgba.js";
-import { mulTable } from "./tables.js";
+import type { ImageDataLike } from "./ImageDataLike.ts";
+import { blurImageDataRGB } from "./rgb.ts";
+import { blurImageDataRGBA } from "./rgba.ts";
+import { mulTable } from "./tables.ts";
 
-export { ImageDataLike };
+export type { ImageDataLike };
 
 /**
  * Applies blurring to the given image.
