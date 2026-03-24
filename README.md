@@ -3,7 +3,7 @@ StackBlur
 
 [GitHub] | [NPM] | [API Doc]
 
-A fast almost Gaussian Blur. Based on Mario Klingemann's original [StackBlur v0.5](http://web.archive.org/web/20110707030516/http://www.quasimondo.com/StackBlurForCanvas/StackBlur.js) from 2011 with the following changes:
+A fast almost Gaussian Blur. Based on Mario Klingemann's original [StackBlur v0.5](https://web.archive.org/web/20110707030516/https://www.quasimondo.com/StackBlurForCanvas/StackBlur.js) from 2011 with the following changes:
 
 * Ported to modern TypeScript.
 * Converted to a NPM module.
