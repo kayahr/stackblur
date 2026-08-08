@@ -4,11 +4,12 @@
  */
 
 import type { ImageDataLike } from "./ImageDataLike.ts";
+
 import { blurImageDataRGB } from "./rgb.ts";
 import { blurImageDataRGBA } from "./rgba.ts";
 import { mulTable } from "./tables.ts";
 
-export type { ImageDataLike };
+export { type ImageDataLike } from './ImageDataLike.ts';
 
 /**
  * Applies blurring to the given image.
